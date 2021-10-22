@@ -23,7 +23,7 @@
  
  
  const recipeCategorySlice = createSlice({
-     name: 'randomRecipe',
+     name: 'recipeCategory',
      initialState: { recipes: [] },
  
      //  reducers: {
