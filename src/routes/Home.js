@@ -79,24 +79,11 @@ export default function Home() {
     }
     // end: randomly select 4 recipes for secondary featured area
 
-
-
-    // debug *****************************************************
-
-    // useEffect(() => {
-    //     console.log("recipes: ");
-    //     console.log(recipes);
-    // }, [recipes])
-
-    // end: debug ************************************************
-
-
     return (
         <div style={{ backgroundColor: '' }}>
 
             {/* featured area */}
             <div className="_featured-area">
-
 
                 {/* featured main */}
                 <div className="md:w-3/5 h-1/2 md:h-full" style={{ backgroundColor: '' }}>
@@ -121,7 +108,6 @@ export default function Home() {
 
             </div>
             {/* end: featured area */}
-
 
             {/* category grid area */}
             <div className="mt-5 flex flex-col items-start p-5" style={{ backgroundColor: '' }}>
@@ -153,8 +139,6 @@ export default function Home() {
             </div>
             {/* end: category grid area */}
 
-
         </div>
     )
 }
-

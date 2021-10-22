@@ -1,10 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Link, useParams, useHistory } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 export default function Details() {
-
-    const history = useHistory();
 
     const { recipeId } = useParams();
 
@@ -175,7 +173,6 @@ export default function Details() {
                 {/* end: heading text */}
             </div>
             {/* end: heading area */}
-
 
             {/* description area */}
             <div className="w-full mt-2 flex flex-col md:flex-row items-start py-2 md:p-0" style={{ backgroundColor: '' }}>

@@ -35,19 +35,11 @@ export default function List() {
 
     };
 
-
     // fetch recipe list when component mounts
     useEffect(() => {
         if (!section || !id) return;
         getRecipes(section, id)
     }, [])
-
-
-    useEffect(() => {
-        console.log("recipeList: ");
-        console.log(recipeList);
-    }, [recipeList])
-
 
     if (error) return (
         <div className="mt-5">
@@ -64,8 +56,7 @@ export default function List() {
         </div>
     )
 
-
-
+    
     return (
         <div className="mt-5 flex flex-col items-start p-5" style={{ backgroundColor: '' }}>
             <h2 className="" style={{ backgroundColor: '' }} className="mb-2 font-bold">All recipes from {id} {section}</h2>
