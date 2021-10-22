@@ -34,7 +34,8 @@ function App() {
           <Switch>
             {/* <Route exact path='/category/:category' component={MealList} /> */}
             {/* <Route exact path='/cuisine/:cuisine' component={List} /> */}
-            <Route exact path='/:id' component={Details} />
+            {/* <Route exact path='/about' component={Home} /> */}
+            <Route exact path='/:recipeId' component={Details} />
             <Route exact path='/' component={Home} />
           </Switch>
         </div>

@@ -48,7 +48,7 @@ export default function Home() {
                     <div
                         style={{ backgroundColor: '' }}
                         className="text-center md:col-start-1 md:col-end-4">
-                        <Link href={"deal/" + 2}>
+                        <Link to={'/' + idMain}>
                             <ImageOverlay
                                 imgSrc={recipe.strMealThumb}
                                 imgAlt={recipe.strMeal}>
@@ -65,7 +65,7 @@ export default function Home() {
                 <div
                     style={{ backgroundColor: '' }}
                     className="text-center">
-                    <Link href={"deal/" + 2}>
+                    <Link to={'/' + idMain}>
                         <ImageOverlay
                             imgSrc={recipe.strMealThumb}
                             imgAlt={recipe.strMeal}>

@@ -24,6 +24,14 @@
     background-image: unset;
 }
 
+._recipe-instructions {
+    flex: 1;
+}
+
+._recipe-instructions p {
+    white-space: pre-line;  
+    vertical-align: bottom;
+}
 
 /* screen width 769px or higher */
 @media(min-width: 769px) {
@@ -32,6 +40,10 @@
     }
 
     ._featured-side {
+        flex: 2;
+    }
+
+    ._recipe-instructions {
         flex: 2;
     }
 }

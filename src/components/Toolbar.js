@@ -23,12 +23,26 @@ export default function Toolbar() {
                 {/* spacer */}
                 <div className="flex-1" />
 
-                {/* search icon */}
+                {/* nav menu area */}
+
+                {/* menu item */}
+                {/* todo: add "mr-5" */}
                 <div className="cursor-pointer hover:text-gray-400 transition duration-200 ease-in-out">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+                    <Link to="/">
+                        Home
+                    </Link>
                 </div>
+                {/* end: menu item */}
+
+                {/* menu item */}
+                {/* <div className="cursor-pointer hover:text-gray-400 transition duration-200 ease-in-out">
+                    <Link to="/about">
+                        About
+                    </Link>
+                </div> */}
+                {/* end: menu item */}
+
+                {/* end: nav menu area */}
 
             </div>
             {/* end: navbar padding */}
